@@ -1,0 +1,375 @@
+[ 2016-10-04T00:22:46+08:00 ] 144.52.185.10 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: p /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6066 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6065 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6064 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6063 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6062 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6061 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6060 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6058 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6057 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6056 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: msg_num /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 55 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 192 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-10-04T00:22:52+08:00 ] 144.52.185.10 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-10-04T00:23:03+08:00 ] 144.52.185.10 /jquery/8/816/demo/Ajax/subcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-10-04T09:00:13+08:00 ] 141.8.184.24 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.2019s ]
+NOTIC: [8] Undefined variable: p /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6066 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6065 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6064 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6063 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6062 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6061 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6060 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6058 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6057 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6056 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0205s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: msg_num /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 55 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 192 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-10-04T09:44:41+08:00 ] 112.251.22.204 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: p /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6066 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6065 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6064 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6063 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6062 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6061 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6060 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6058 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6057 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6056 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: msg_num /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 55 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 192 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-10-04T09:44:42+08:00 ] 112.251.22.204 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-10-04T09:45:08+08:00 ] 112.251.22.204 /jquery/8/816/demo/Ajax/subcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-10-04T17:26:41+08:00 ] 51.255.65.52 /jquery/8/816/demo/Member/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 无法加载控制器:Member
+
+[ 2016-10-04T19:24:08+08:00 ] 222.88.240.117 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: p /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6066 ) ORDER BY id ASC  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6065 ) ORDER BY id ASC  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6064 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6063 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6062 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6061 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6060 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6058 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6057 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6056 ) ORDER BY id ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/www/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/www/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: msg_num /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 55 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 104 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 105 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Undefined variable: control /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined index: uname /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 147 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 162 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 192 行.
+NOTIC: [8] Undefined variable: url_cur /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+NOTIC: [8] Undefined variable: mtype /data/www/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-10-04T19:24:08+08:00 ] 222.88.240.117 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-10-04T19:24:17+08:00 ] 222.88.240.117 /jquery/8/816/demo/Ajax/subcomment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+

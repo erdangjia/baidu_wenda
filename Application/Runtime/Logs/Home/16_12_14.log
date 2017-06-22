@@ -1,0 +1,203 @@
+[ 2016-12-14T11:16:50+08:00 ] 180.173.62.110 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'112.124.109.87' (using password: YES)
+
+[ 2016-12-14T11:43:32+08:00 ] 180.173.62.110 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'112.124.109.87' (using password: YES)
+
+[ 2016-12-14T11:46:28+08:00 ] 180.173.62.110 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'112.124.109.87' (using password: YES)
+
+[ 2016-12-14T11:47:27+08:00 ] 180.173.62.110 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0446s ]
+NOTIC: [8] Undefined variable: p /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6156 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6155 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6153 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6152 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6150 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6149 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6148 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6145 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6144 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6143 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/wwwroot/erdangjiade/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/wwwroot/erdangjiade/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+SQL: SELECT `uid` FROM `sucai_comment` WHERE ( id = 6146 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: url_cur /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2016-12-14T11:47:27+08:00 ] 180.173.62.110 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-12-14T11:47:28+08:00 ] 180.173.62.110 /jquery/8/816/demo/Public/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-12-14T11:47:37+08:00 ] 180.173.62.110 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-12-14T12:16:02+08:00 ] 180.173.62.110 /jquery/8/816/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `sucai_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sucai_comment` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: p /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php 第 14 行.
+SQL: SELECT `id`,`uid`,`content`,`addtime` FROM `sucai_comment` WHERE ( pid=0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6156 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6155 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6153 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6152 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6150 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6149 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6148 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6145 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6144 ) ORDER BY id ASC  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`uid`,`content`,`pid_sub` FROM `sucai_comment` WHERE ( pid = 6143 ) ORDER BY id ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sucai_emot` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Home/Controller/IndexController.class.php on line 31 and defined /data/wwwroot/erdangjiade/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace /data/wwwroot/erdangjiade/jquery/8/816/demo/ThinkPHP/Library/Think/PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined variable: control /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+SQL: SELECT `uid` FROM `sucai_comment` WHERE ( id = 6146 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined index: uname /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined variable: url_cur /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Undefined variable: mtype /data/wwwroot/erdangjiade/jquery/8/816/demo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-12-14T12:16:02+08:00 ] 180.173.62.110 /jquery/8/816/demo/Ajax/isLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+

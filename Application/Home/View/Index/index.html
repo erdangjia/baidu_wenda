@@ -1,0 +1,113 @@
+<include file="Public:head" />
+<div class="breadcrumbs">
+    <span>&gt;</span><a href="__APP__/js">网页特效</a>
+</div>
+<div  class="container clearfix">
+
+    <div class="detail">
+        <div class="detail_foot clearfix">
+            <div class="comments">
+                <div class="title">
+                    评论<span class="num_area">（<em class="comments_num" id="comments_num">{$comments_num}</em>）</span>
+                </div>  
+
+                <div class="comment_send clearfix">
+                    <div class="comment_avatar">
+                        <span class="userPic">
+                            <img class='userPic avatar user_my_avatar' width="60" height="60" src="__PUBLIC__/images/avatar.jpg" alt="头像">
+                        </span>
+                        <font class="username"></font>
+                    </div>
+                    <div class="comment_sendPart" id='reply_0'>
+                        <textarea id="textareaComment" class="textarea_comment" name="content"  autocomplete="off"  data-default="发布评论" onblur="checkInputBlur($(this))" onfocus="checkInputFocus($(this));
+                        if ($(this).val() != '发布评论')
+                            $(this).css({'color': '#333'})">发布评论</textarea>
+                        <div class="btn_p clearfix">
+                            <span class="comment_tip" id="comment_tip_0" data-top="11" data-foot="36"></span>
+                            <button class="btn_subGrey btn" type="button" onclick="subcomment('{$id}', '{$mtype}', 0)">提 交</button>
+                            <span class="emotion" tabindex="1" data-id='0'></span>
+                        </div>
+                    </div>
+                </div>
+                <div  class="comment_wrap" id="comment_wrap">
+                    <ul class="comment_listBox">
+                        <foreach name="comments" item="row">
+                            <li class="comment_list clearfix" id="comment_{$row.id}" <if condition="$comments_num%10-1 eq $key or $key%10 eq 9">style='border-bottom:none'</if>>
+                            <div class="comment_avatar">
+                                <span class='userPic'><img width="36" height="36" src="{$row.uid|getUserAvatar=###}" alt="{$row.uname}头像"></span>
+                                <span class="grey">{$comments_num-$key-1|getNumName=###}</span>
+                            </div>
+                            <div class="comment_conBox">
+                                <div class="comment_avatar_time">
+                                    <div class="time">{$row.addtime|tranTime}</div> {$row.uid|getUserName}
+                                </div>
+                                <div class="comment_conWrap clearfix">
+                                    <div class="comment_action"><a class="reply" onclick="reply_btn('{$row.id}')">回复</a> </div>
+                                    <div class="comment_con">{$row.content|getCommentContent}</div>
+                                </div>
+                                <div id='reply_{$row.id}' class='reply_area'>
+                                    <textarea  class="textarea_comment" name="content" autocomplete="off"></textarea>
+                                    <div class="btn_p clearfix">
+                                        <span class="comment_tip" id="comment_tip_{$row.id}" data-top="4" data-foot="29"></span>
+                                        <button class="btn_subGrey btn" onclick="subcomment('{$id}', '{$mtype}', '{$row.id}', 0)" type="button">提交</button>
+                                        <span class="emotion" tabindex="1" data-id='{$row.id}'></span>
+                                    </div>
+                                </div>
+                                <div class="blockquote_wrap">
+                                    <foreach name="row['sub']" key='key2' item='row2'>
+                                        <blockquote class="comment_blockquote">
+                                            <div class="comment_floor">{$key2+1}</div>
+                                            <div class="comment_conWrap clearfix">
+                                                <div class="comment_con">
+                                                    {$row2.uid|getUidUrl}：
+                                                    <p>{$row2.pid_sub|getTan}{$row2.content|getCommentContent}</p>
+
+                                                </div>
+                                                <div class="comment_action_sub">
+                                                    <a class="reply" onclick="reply_btn('{$row2.id}')">回复</a>
+                                                </div>
+                                            </div>
+                                            <div id="reply_{$row2.id}" class="reply_area">
+                                                <textarea class="textarea_comment" autocomplete="off" name="content"></textarea>
+                                                <div class="btn_p clearfix">
+                                                    <span id="comment_tip_{$row2.id}" class="comment_tip" data-foot="29" data-top="4"></span>
+                                                    <button class="btn_subGrey btn" type="button" onclick="subcomment('{$id}', '{$mtype}', '{$row.id}', '{$row2.id}')">提交</button>
+                                                    <span class="emotion" data-id="{$row2.id}" tabindex="{$row2.id}"></span>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </foreach>
+                                </div>
+                            </div>
+                            </li>
+                        </foreach>
+                    </ul>
+                    <if condition="$comments_num gt 10">
+                        <div class="pager" id="detail-page" data-id="{$id}" data-mtype='{$mtype}' data-totalnum="{$comments_num}">{$page}</div>
+                    </if>
+                </div>
+            </div>
+        </div>
+        <div class="smileBoxOuter" id="smileBoxOuter" tabindex="2">
+            <ul class="smileBox">
+                <foreach name="emots" item="row">
+                    <if condition="$key lt 44">
+                        <li><a href="javascript:void(0)" class="smile{$row.id}" title="{$row.name}"></a></li>
+                    </if>
+                </foreach>
+            </ul>
+            <ul class="smileBox" style="display:none;">
+                <foreach name="emots" item="row">
+                    <if condition="$key gt 44">
+                        <li><a href="javascript:void(0)" class="smile{$row.id}" title="{$row.name}"></a></li>
+                    </if>
+                </foreach>
+            </ul>
+            <div class="smilePage">
+                <a href="javascript:void(0)" class="current">1</a>
+                <a href="javascript:void(0)">2</a>
+            </div>
+        </div>    
+    </div>
+</div>
+<include file="Public:foot" />

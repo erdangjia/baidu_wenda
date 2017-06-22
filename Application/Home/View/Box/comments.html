@@ -1,0 +1,53 @@
+<ul class="comment_listBox">
+    <foreach name="comments" item="row">
+        <li class="comment_list clearfix" id="comment_{$row.id}" <if condition="$comments_num%10-1 eq $key or $key%10 eq 9">style='border-bottom:none'</if>>
+        <div class="comment_avatar">
+            <span class='userPic'><img width="36" height="36" src="http://www.erdangjiade.com/Public/images/avatar.jpg" alt="{$row.uname}头像"></span>
+            <span class="grey">{$comments_num-$key-1|getNumName=###}</span>
+        </div>
+        <div class="comment_conBox">
+            <div class="comment_avatar_time">
+                <div class="time">{$row.addtime|tranTime}</div> {$row.uid|getUserName}
+            </div>
+            <div class="comment_conWrap clearfix">
+                <div class="comment_action"><a class="reply" onclick="reply_btn('{$row.id}')">回复</a> </div>
+                <div class="comment_con">{$row.content|stripslashes}</div>
+            </div>
+            <div id='reply_{$row.id}' class='reply_area'>
+                <textarea  class="textarea_comment" name="content" autocomplete="off"></textarea>
+                <div class="btn_p clearfix">
+                    <span class="comment_tip" id="comment_tip_{$row.id}" data-top="4" data-foot="29"></span>
+                    <button class="btn_subGrey btn" onclick="subcomment('{$id}', '{$mtype}', '{$row.id}', 0)" type="button">提交</button>
+                    <span class="emotion" tabindex="1" data-id='{$row.id}'></span>
+                </div>
+            </div>
+            <div class="blockquote_wrap">
+                <foreach name="row['sub']" key='key2' item='row2'>
+                    <blockquote class="comment_blockquote">
+                        <div class="comment_floor">{$key2+1}</div>
+                        <div class="comment_conWrap clearfix">
+                            <div class="comment_con">
+                                {$row2.uid|getUidUrl}：
+                                <p>{$row2.pid_sub|getTan}{$row2.content|stripslashes}</p>
+
+                            </div>
+                            <div class="comment_action_sub">
+                                <a class="reply" onclick="reply_btn('{$row2.id}')">回复</a>
+                            </div>
+                        </div>
+                        <div id="reply_{$row2.id}" class="reply_area">
+                            <textarea class="textarea_comment" autocomplete="off" name="content"></textarea>
+                            <div class="btn_p clearfix">
+                                <span id="comment_tip_{$row2.id}" class="comment_tip" data-foot="29" data-top="4"></span>
+                                <button class="btn_subGrey btn" type="button" onclick="subcomment('{$id}', '{$mtype}', '{$row.id}', '{$row2.id}')">提交</button>
+                                <span class="emotion" data-id="{$row2.id}" tabindex="{$row2.id}"></span>
+                            </div>
+                        </div>
+                    </blockquote>
+                </foreach>
+            </div>
+        </div>
+        </li>
+    </foreach>
+</ul>
+<div class="pager" id="detail-page" data-id="{$id}" data-mtype='{$mtype}' data-totalnum="{$comments_num}">{$page}</div>

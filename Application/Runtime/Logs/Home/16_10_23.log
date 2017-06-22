@@ -1,0 +1,9 @@
+[ 2016-10-23T15:52:05+08:00 ] 51.255.65.35 /jquery/8/816/demo/templates/8-0-0-0-0-0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+ERR: 无法加载控制器:Templates
+
