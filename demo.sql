@@ -1,9 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.1.14
 -- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: 2016-04-13 05:43:00
+--d-- Generation Time: 2016-04-13 05:43:00
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -27,16 +25,10 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `sucai_comment` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `uid` int(11) NOT NULL,
-  `touid` int(11) DEFAULT '0',
-  `pid_sub` int(11) DEFAULT '0',
-  `tid` int(11) NOT NULL,
-  `pid` int(11) DEFAULT '0',
   `mtype` tinyint(1) NOT NULL,
   `content` text NOT NULL,
   `addtime` int(10) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`d`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5560 ;
 
 --
